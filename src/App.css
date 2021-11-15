@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.text{
+  font-size: "1.5rem";
+  font-weight: 500;  
+}
+
+.Boxcard{
+  padding: 1rem 1rem 0rem 1rem;
+}

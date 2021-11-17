@@ -15,7 +15,7 @@ function Singlepost(props) {
 
   async function fetchList() {
     await axios
-      .get(`http://localhost:3001/getPost/${id}`)
+      .get(`https://vocabulary-251.herokuapp.com/getPost/${id}`)
       .then((response) => {
         setItem(response.data);
         // console.log(response.data);

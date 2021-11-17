@@ -15,7 +15,7 @@ function Add() {
     e.preventDefault();
     console.log(value);
     await axios
-      .post("http://localhost:3001/addword", { value: value })
+      .post("https://vocabulary-251.herokuapp.com/addword", { value: value })
       .then((response) => {
         // console.log(response.data)
         // setAlert(true)

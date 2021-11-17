@@ -69,7 +69,7 @@ function Homepage() {
     setSearch(e.target.value);
     console.log(search);
     await axios
-      .get(`http://localhost:3001/getPost/${search}`)
+      .get(`https://vocabulary-251.herokuapp.com/getPost/${search}`)
       .then((response) => {
         // setCards(response.data);
         setSearchInput(response.data);
@@ -84,7 +84,7 @@ function Homepage() {
 
   async function fetchList() {
     await axios
-      .get(`http://localhost:3001/getPosts`)
+      .get(`https://vocabulary-251.herokuapp.com/getPosts`)
       .then((response) => {
         // console.log(response.data)
         const results = response.data;

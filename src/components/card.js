@@ -1,9 +1,6 @@
 import React from "react";
 import { Card } from "@mui/material";
-import CardContent from "@mui/material/CardContent";
 import { Typography } from "@mui/material";
-import { CardActions } from "@mui/material";
-import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 function card(props) {
   const { item } = props;
